@@ -1,6 +1,6 @@
 import { FaShoppingCart } from "react-icons/fa";
 
-export function CartWidget() {
+const CartWidget = () => {
   return (
     <div className="relative flex items-center cursor-pointer">
       <FaShoppingCart size={24} className="text-white" />
@@ -10,3 +10,5 @@ export function CartWidget() {
     </div>
   );
 }
+
+export default CartWidget;
